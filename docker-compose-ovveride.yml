@@ -1,0 +1,8 @@
+version: '2'
+services:
+  ubuntu:
+    image: ubuntu
+    build: .
+    volumes: []
+    ports:
+      - '3333:3000'
